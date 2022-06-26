@@ -1,0 +1,99 @@
+﻿<Window x:Class="BarhatnieBrovki.Windows.ServiceVivod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarhatnieBrovki.Windows"
+        mc:Ignorable="d"
+        Title="Вывод услуги" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=VisibleAdminPanel, Path=Content}"
+                        Value="0">
+                    <Setter Property="Visibility" Value="Hidden"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding ElementName=VisibleAdminPanel, Path=Content}"
+                        Value="1">
+                    <Setter Property="Visibility" Value="Visible"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+
+
+    <ScrollViewer>
+    <StackPanel>
+            <Label x:Name="VisibleAdminPanel" Visibility="Hidden"/>
+            <Label x:Name="Tname" FontFamily="Tahoma" HorizontalAlignment="Center" FontSize="24" FontWeight="DemiBold" Margin="10,0,10,0"/>
+      
+        <StackPanel Orientation="Horizontal">
+          <Label Content="Стоимость:" FontFamily="Tahoma" Margin="10,0,0,0"/>
+          <Label x:Name="Tcost" Margin="0,0,10,10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Продолжительность (мин.):" FontFamily="Tahoma" Margin="10,0,0,0"/>
+            <Label x:Name="Tduration" Margin="0,0,10,10"/>
+        </StackPanel>
+        <Label Content="Описание услуги" FontFamily="Tahoma" Margin="10,0,10,0" x:Name="vis1"/>
+        <Label                        
+                       x:Name="Tdescription"
+                       FontSize="24"                       
+                       FontWeight="Light"
+                       Margin="10,0,10,10"
+                       Foreground="Black"
+                       />
+
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Скидка (в %):"
+                   FontFamily="Tahoma"
+                   Margin="10,0,0,0"
+                   />
+            <Label x:Name="Tdiscount" Margin="0,0,10,10"/>
+        </StackPanel>
+        <Label Content="Изображение услуги"
+                   FontFamily="Tahoma"
+                   HorizontalAlignment="Center"
+                   Margin="10,0,10,10" 
+                   x:Name="ImgLabel"
+                   />
+        <Image 
+            x:Name="img"
+            Height="100" 
+            Width="100"
+            Margin="10,0,10,0"
+             />
+
+            <Label Content="Дополнительные фото"
+                   FontFamily="Tahoma"
+                   HorizontalAlignment="Center"
+                   Margin="10,0,10,10"
+                   />
+            <ListBox x:Name="DopPhotoListbox" ItemsSource="{Binding}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Image             
+                              Height="200" 
+                              Width="200"
+                              Margin="10,0,10,0"
+                              HorizontalAlignment="Center"
+                              Source="{Binding}"
+                               />
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Button Content="Записать клиента"
+                    Margin="10,20,10,10"
+                    Background="#e1e4ff"
+                    Foreground="Black"
+                    FontFamily="Tahoma"
+                    Padding="10,10,10,10"
+                    Click="ZapicKlientaButton"
+                    />
+    
+    </StackPanel>
+    </ScrollViewer>
+</Window>

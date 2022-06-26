@@ -1,0 +1,51 @@
+﻿<Window x:Class="BarhatnieBrovki.Windows.AdminVhod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarhatnieBrovki.Windows"
+        mc:Ignorable="d"
+        Title="Вход в админ-панель" Height="250" Width="405">
+   
+    <StackPanel>
+        <Label Content="Вход в режим администратора"
+               FontFamily="Tahoma" 
+               FontWeight="Bold" 
+               FontSize="20"
+               HorizontalAlignment="Center"
+               Margin="0 0 0 20"
+               />
+        <Label Content="Пароль:"
+               FontFamily="Tahoma"
+               FontSize="20"/>
+        <StackPanel Orientation="Horizontal">
+            <PasswordBox Width="280"
+                     FontFamily="Tahoma" 
+                     FontSize="32"
+                     Margin="10,0,10,0"
+                     x:Name="InputField"
+                     KeyDown="EnterDown"
+                     />
+            <Button Content="Войти"
+                    Width="80" 
+                    Height="50"
+                    FontFamily="Tahoma" 
+                    FontSize="22"
+                    Background="#e1e4ff"
+                    Click="AutorizationClick"
+                    />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button 
+                Content="Назад"
+                Width="80"
+                Height="40"
+                FontFamily="Tahoma"
+                FontSize="18"
+                Background="#ff4a6d"
+                Margin="10 50 0 0"
+                HorizontalAlignment="Left"
+                Click="Back"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

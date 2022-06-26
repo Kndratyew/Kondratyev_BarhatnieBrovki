@@ -1,0 +1,372 @@
+D:\visual project\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.exe.config
+D:\visual project\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.exe
+D:\visual project\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.pdb
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.AssemblyReference.cache
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.SuggestedBindingRedirects.cache
+D:\visual project\BarhatnieBrovki\obj\Debug\MainWindow.g.cs
+D:\visual project\BarhatnieBrovki\obj\Debug\App.g.cs
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_MarkupCompile.cache
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_MarkupCompile.lref
+D:\visual project\BarhatnieBrovki\obj\Debug\MainWindow.baml
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.g.resources
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.Properties.Resources.resources
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.GenerateResource.cache
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.CoreCompileInputs.cache
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.exe
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.pdb
+D:\visual project\BarhatnieBrovki\obj\Debug\Windows\Autorization.g.cs
+D:\visual project\BarhatnieBrovki\obj\Debug\Windows\Autorization.baml
+D:\visual project\BarhatnieBrovki\obj\Debug\Windows\AdminVhod.g.cs
+D:\visual project\BarhatnieBrovki\obj\Debug\Windows\AdminVhod.baml
+D:\visual project\BarhatnieBrovki\obj\Debug\Pages\ServicesPage.g.cs
+D:\visual project\BarhatnieBrovki\obj\Debug\Pages\ServicesPage.baml
+D:\visual project\BarhatnieBrovki\bin\Debug\EntityFramework.dll
+D:\visual project\BarhatnieBrovki\bin\Debug\EntityFramework.SqlServer.dll
+D:\visual project\BarhatnieBrovki\bin\Debug\EntityFramework.xml
+D:\visual project\BarhatnieBrovki\bin\Debug\EntityFramework.SqlServer.xml
+D:\visual project\BarhatnieBrovki\bin\Debug\ru\EntityFramework.resources.dll
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_Content.g.cs
+D:\visual project\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.CopyComplete
+D:\visual project\BarhatnieBrovki\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\visual project\BarhatnieBrovki\obj\Debug\Windows\EditService.g.cs
+D:\visual project\BarhatnieBrovki\obj\Debug\Windows\EditService.baml
+F:\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.exe.config
+F:\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.exe
+F:\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.pdb
+F:\BarhatnieBrovki\bin\Debug\EntityFramework.dll
+F:\BarhatnieBrovki\bin\Debug\EntityFramework.SqlServer.dll
+F:\BarhatnieBrovki\bin\Debug\EntityFramework.xml
+F:\BarhatnieBrovki\bin\Debug\EntityFramework.SqlServer.xml
+F:\BarhatnieBrovki\bin\Debug\ru\EntityFramework.resources.dll
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.AssemblyReference.cache
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.SuggestedBindingRedirects.cache
+F:\BarhatnieBrovki\obj\Debug\MainWindow.g.cs
+F:\BarhatnieBrovki\obj\Debug\Pages\ServicesPage.g.cs
+F:\BarhatnieBrovki\obj\Debug\Windows\AdminVhod.g.cs
+F:\BarhatnieBrovki\obj\Debug\Windows\Autorization.g.cs
+F:\BarhatnieBrovki\obj\Debug\Windows\EditService.g.cs
+F:\BarhatnieBrovki\obj\Debug\App.g.cs
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_Content.g.cs
+F:\BarhatnieBrovki\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_MarkupCompile.cache
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_MarkupCompile.lref
+F:\BarhatnieBrovki\obj\Debug\MainWindow.baml
+F:\BarhatnieBrovki\obj\Debug\Pages\ServicesPage.baml
+F:\BarhatnieBrovki\obj\Debug\Windows\AdminVhod.baml
+F:\BarhatnieBrovki\obj\Debug\Windows\Autorization.baml
+F:\BarhatnieBrovki\obj\Debug\Windows\EditService.baml
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.g.resources
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.Properties.Resources.resources
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.GenerateResource.cache
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.CoreCompileInputs.cache
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.CopyComplete
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.exe
+F:\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.pdb
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\122454.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\96.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\face.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\makeup.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\man.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\mask.jpeg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\piling.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\soliarij.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\брови.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Гречишный массаж.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Декорирование нарощенных ресниц стразами.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Демакияж.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Депиляция воском.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Европейский маникюр.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\ИК-сауна.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Классический маникюр.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Комбинированный маникюр.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Контурная пластика.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\массаж.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Мезотерапия.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Моделирование ресниц.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\ногти.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Окрашивание бровей.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Парафинотерапия.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Покрытие ногтей гель-лаком.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Полировка ногтей.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Прессотерапия.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Прокол ушей пистолетом.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Ресницы.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Снятие ресниц.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Стоун-терапия.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\стрижка.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Укрепление ногтей гелем.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Шугаринг.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Экспресс SPA.png
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Экспресс-педикюр.jpg
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.exe.config
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.exe
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.pdb
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\EntityFramework.dll
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\EntityFramework.xml
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\310-03\Desktop\BarhatnieBrovki\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.AssemblyReference.cache
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.SuggestedBindingRedirects.cache
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\MainWindow.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Pages\AddServicePage.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Pages\NearestEntry.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Pages\ServicesPage.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\AddKlient.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\AdminVhod.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\Autorization.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\EditService.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\ServiceVivod.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\App.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_Content.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_MarkupCompile.cache
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_MarkupCompile.lref
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\MainWindow.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Pages\AddServicePage.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Pages\NearestEntry.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Pages\ServicesPage.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\AddKlient.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\AdminVhod.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\Autorization.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\EditService.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\Windows\ServiceVivod.baml
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.g.resources
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.Properties.Resources.resources
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.GenerateResource.cache
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.CoreCompileInputs.cache
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.CopyComplete
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.exe
+C:\Users\310-03\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.pdb
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\122454.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\96.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\face.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\makeup.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\man.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\mask.jpeg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\piling.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\soliarij.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\брови.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Гречишный массаж.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Декорирование нарощенных ресниц стразами.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Демакияж.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Депиляция воском.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Европейский маникюр.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\ИК-сауна.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Классический маникюр.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Комбинированный маникюр.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Контурная пластика.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\массаж.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Мезотерапия.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Моделирование ресниц.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\ногти.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Окрашивание бровей.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Парафинотерапия.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Покрытие ногтей гель-лаком.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Полировка ногтей.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Прессотерапия.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Прокол ушей пистолетом.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Ресницы.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Снятие ресниц.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Стоун-терапия.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\стрижка.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Укрепление ногтей гелем.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Шугаринг.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Экспресс SPA.png
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\Услуги салона красоты\Экспресс-педикюр.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.exe.config
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.exe
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\BarhatnieBrovki.pdb
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\EntityFramework.dll
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\EntityFramework.xml
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\erik8\Desktop\BarhatnieBrovki\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.AssemblyReference.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.SuggestedBindingRedirects.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\MainWindow.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Pages\AddServicePage.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Pages\NearestEntry.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Pages\ServicesPage.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\AddKlient.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\AdminVhod.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\Autorization.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\EditService.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\ServiceVivod.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\App.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_Content.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_MarkupCompile.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki_MarkupCompile.lref
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\MainWindow.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Pages\AddServicePage.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Pages\NearestEntry.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Pages\ServicesPage.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\AddKlient.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\AdminVhod.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\Autorization.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\EditService.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\Windows\ServiceVivod.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.g.resources
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.Properties.Resources.resources
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.GenerateResource.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.CoreCompileInputs.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.csproj.CopyComplete
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.exe
+C:\Users\erik8\Desktop\BarhatnieBrovki\obj\Debug\BarhatnieBrovki.pdb
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\122454.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\96.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\face.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\makeup.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\man.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\mask.jpeg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\piling.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\soliarij.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\брови.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Гречишный массаж.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Декорирование нарощенных ресниц стразами.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Демакияж.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Депиляция воском.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Европейский маникюр.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\ИК-сауна.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Классический маникюр.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Комбинированный маникюр.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Контурная пластика.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\массаж.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Мезотерапия.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Моделирование ресниц.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\ногти.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Окрашивание бровей.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Парафинотерапия.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Покрытие ногтей гель-лаком.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Полировка ногтей.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Прессотерапия.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Прокол ушей пистолетом.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Ресницы.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Снятие ресниц.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Стоун-терапия.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\стрижка.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Укрепление ногтей гелем.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Шугаринг.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Экспресс SPA.png
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Экспресс-педикюр.jpg
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\BarhatnieBrovki.exe.config
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\BarhatnieBrovki.exe
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\BarhatnieBrovki.pdb
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\EntityFramework.dll
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\EntityFramework.xml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.AssemblyReference.cache
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.SuggestedBindingRedirects.cache
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\MainWindow.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\AddServicePage.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\NearestEntry.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\ServicesPage.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\AddKlient.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\AdminVhod.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\Autorization.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\EditService.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\ServiceVivod.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\App.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki_Content.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki_MarkupCompile.cache
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki_MarkupCompile.lref
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\MainWindow.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\AddServicePage.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\NearestEntry.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\ServicesPage.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\AddKlient.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\AdminVhod.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\Autorization.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\EditService.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\ServiceVivod.baml
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.g.resources
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.Properties.Resources.resources
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.GenerateResource.cache
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.CoreCompileInputs.cache
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.CopyComplete
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.exe
+C:\Users\307-08\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.pdb
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\122454.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\96.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\face.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\makeup.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\man.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\mask.jpeg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\piling.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\soliarij.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\брови.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Гречишный массаж.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Декорирование нарощенных ресниц стразами.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Демакияж.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Депиляция воском.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Европейский маникюр.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\ИК-сауна.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Классический маникюр.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Комбинированный маникюр.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Контурная пластика.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\массаж.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Мезотерапия.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Моделирование ресниц.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\ногти.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Окрашивание бровей.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Парафинотерапия.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Покрытие ногтей гель-лаком.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Полировка ногтей.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Прессотерапия.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Прокол ушей пистолетом.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Ресницы.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Снятие ресниц.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Стоун-терапия.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\стрижка.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Укрепление ногтей гелем.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Шугаринг.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Экспресс SPA.png
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\Услуги салона красоты\Экспресс-педикюр.jpg
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\BarhatnieBrovki.exe.config
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\BarhatnieBrovki.exe
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\BarhatnieBrovki.pdb
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\EntityFramework.dll
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\EntityFramework.xml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.AssemblyReference.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.SuggestedBindingRedirects.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\MainWindow.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\AddServicePage.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\NearestEntry.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\ServicesPage.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\AddKlient.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\AdminVhod.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\Autorization.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\EditService.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\ServiceVivod.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\App.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki_Content.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki_MarkupCompile.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki_MarkupCompile.lref
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\MainWindow.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\AddServicePage.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\NearestEntry.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Pages\ServicesPage.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\AddKlient.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\AdminVhod.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\Autorization.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\EditService.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\Windows\ServiceVivod.baml
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.g.resources
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.Properties.Resources.resources
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.GenerateResource.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.CoreCompileInputs.cache
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.csproj.CopyComplete
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.exe
+C:\Users\erik8\Desktop\BarhatnieBrovki-master\obj\Debug\BarhatnieBrovki.pdb

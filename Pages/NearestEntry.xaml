@@ -1,0 +1,127 @@
+﻿<Page x:Class="BarhatnieBrovki.Pages.NearestEntry"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BarhatnieBrovki.Pages"
+      xmlns:converters="clr-namespace:BarhatnieBrovki.Converters"      
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="NearestEntry">
+    <Page.Resources>
+
+        <converters:MaloVremeniConverter x:Key="MaloVremeni" />
+    </Page.Resources>
+
+
+    <ScrollViewer VerticalScrollBarVisibility="Visible">
+        <StackPanel>
+            <ListBox ItemsSource="{Binding}" 
+                     x:Name="listboxZapic"
+                     >
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="BorderThickness" Value="2" />
+                        <Setter Property="BorderBrush" Value="Gray" />
+                        <Setter Property="Margin" Value="5 5 5 5" />
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Width="821">
+                            <StackPanel Orientation="Horizontal">                           
+                            <Label Content="ФИО клиента🖕:"
+                                      FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"
+                                   />
+                            <Label Content="{Binding Clients.FirstName}" 
+                                   FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Bold"/>
+                            <Label Content="{Binding Clients.LastName}"
+                                   FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="DemiBold"/>
+                            <Label Content="{Binding Clients.Patronymic}"
+                                   FontWeight="DemiBold"
+                                   FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   />
+                            </StackPanel>
+                     
+                                <StackPanel Orientation="Horizontal">
+                                    <Label Content="Услуга🖕:"
+                                   FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"
+                                   />
+                                <Label Content="{Binding Services.Title}" 
+                                   FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Bold"/>
+                                 
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal">
+                                <Label Content="Эл. почта клиента🖕:"
+                                      FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"
+                                   />
+                                <Label Content="{Binding Clients.Email}" 
+                                   FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Телефон клиента🖕:"
+                                      FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"
+                                   />
+                                <Label Content="{Binding Clients.Phone}" 
+                                   FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Дата и время записи🖕:"
+                                      FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"                                       
+                                   />
+                                <Label Content="{Binding StartTime}" 
+                                       ContentStringFormat="dd MMMM yyyy HH:mm:ss"
+                                   FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="До записи🖕:"
+                                      FontFamily="Tahoma"
+                                   FontSize="24" 
+                                   FontWeight="Light"                                       
+                                   />
+                                <TextBlock 
+                                    FontFamily="Tahoma"
+                                    FontSize="24"                                        
+                                    FontWeight="Bold"
+                                    VerticalAlignment="Center"
+                                    Foreground="{Binding TimeDoNahala,
+                                       Converter={StaticResource MaloVremeni}}"
+                                    Text="{Binding TimeDoNahala,StringFormat={}{0:dd} день {0:hh} час(ов) {0:mm} минут}">
+                                </TextBlock>
+                            </StackPanel>
+
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

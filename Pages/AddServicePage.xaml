@@ -1,0 +1,77 @@
+﻿<Page x:Class="BarhatnieBrovki.Pages.AddServicePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BarhatnieBrovki.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Добавление услуги">
+
+        <StackPanel>
+            <Label Content="Добавление услуги" 
+               HorizontalAlignment="Center"
+               FontWeight="Bold"
+               FontSize="30"
+               FontFamily="Tahoma"
+               />
+            <Label Content="Название услуги" FontFamily="Tahoma" Margin="10,0,10,0"/>
+            <TextBox x:Name="Tname" Margin="10,0,10,10"/>
+
+            <Label Content="Стоимость услуги (руб.)" FontFamily="Tahoma" Margin="10,0,10,0"/>
+            <TextBox x:Name="Tcost" Margin="10,0,10,10"/>
+
+            <Label Content="Продолжительность в секундах" FontFamily="Tahoma" Margin="10,0,10,0"/>
+            <TextBox x:Name="Tduration" Margin="10,0,10,10"/>
+
+            <Label Content="Описание услуги" FontFamily="Tahoma" Margin="10,0,10,0" x:Name="vis1"/>
+            <TextBox 
+                       TextWrapping="Wrap"
+                       x:Name="Tdescription"
+                       FontSize="24"
+                       
+                       FontWeight="Light"
+                       Margin="10,0,10,10"
+                       Foreground="Black"
+                       />
+            <Label Content="Скидка (в %)"
+                   FontFamily="Tahoma"
+                   Margin="10,0,10,0"
+                   />
+            <TextBox x:Name="Tdiscount" Margin="10,0,10,10"/>
+
+            <Label Content="Изображение услуги"
+                   FontFamily="Tahoma"
+                   Margin="10,0,10,0"
+                   />
+            <StackPanel Orientation="Horizontal" Margin="10,0,10,10">
+                <Button Content="Прикрепить"
+                        Click="AddFotka"
+                        Margin="0 0 10 0"
+                        Background="#e1e4ff"
+                        Foreground="Black"
+                        FontFamily="Tahoma"
+                        Padding="10,10,10,10"
+                        />
+                <Button Content="Удалить"                        
+                        Background="#e1e4ff"
+                        Foreground="Black"
+                        FontFamily="Tahoma"
+                        Click="DeleteFotka"
+                        Padding="10,10,10,10"
+                        />
+                <Label x:Name="imgName"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Сохранить"
+                    Margin="10,20,10,10"
+                    Background="#e1e4ff"
+                    Foreground="Black"
+                    FontFamily="Tahoma"
+                    Padding="10,10,10,10"
+                    Click="SaveEditing"
+                    />
+            </StackPanel>
+        </StackPanel>
+</Page>

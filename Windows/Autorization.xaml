@@ -1,0 +1,36 @@
+﻿<Window x:Class="BarhatnieBrovki.Windows.Autorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarhatnieBrovki.Windows"       
+        mc:Ignorable="d"
+        Title="Вход" Height="250" Width="405">
+
+    <StackPanel>
+        <Label Content="Добро пожаловать"
+               FontFamily="Tahoma"
+               FontWeight="Bold"
+               FontSize="20"
+               HorizontalAlignment="Center"
+               Margin="0 0 0 20"
+               />
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Ознакомиться с услугами"  
+                    Width="385" Height="150"
+                    FontFamily="Tahoma"
+                    FontSize="22"
+                    Background="#e1e4ff"
+                    Click="StepToUser"
+                    Margin="10,0,10,0"
+                    />
+            <Button Content="Администратор"
+                    Width="0" Height="0"
+                    FontFamily="Tahoma"
+                    FontSize="22"
+                    IsDefault="True"
+                    Background="#e1e4ff"
+                    Click="StepToAdmin" />
+        </StackPanel>
+    </StackPanel>
+</Window>

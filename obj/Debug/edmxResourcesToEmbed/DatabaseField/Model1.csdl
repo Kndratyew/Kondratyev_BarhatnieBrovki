@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BarhatniyeBrovkiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="RegistrationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GenderCode" Type="String" MaxLength="1" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="PhotoPath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Genders" Relationship="Self.FK_Client_Gender" FromRole="Clients" ToRole="Genders" />
+    <NavigationProperty Name="ClientServices" Relationship="Self.FK_ClientService_Client" FromRole="Clients" ToRole="ClientServices" />
+    <NavigationProperty Name="Tags" Relationship="Self.TagOfClient" FromRole="Clients" ToRole="Tags" />
+  </EntityType>
+  <EntityType Name="ClientServices">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="ServiceID" Type="Int32" Nullable="false" />
+    <Property Name="StartTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Clients" Relationship="Self.FK_ClientService_Client" FromRole="ClientServices" ToRole="Clients" />
+    <NavigationProperty Name="Services" Relationship="Self.FK_ClientService_Service" FromRole="ClientServices" ToRole="Services" />
+    <NavigationProperty Name="DocumentByServices" Relationship="Self.FK_DocumentByService_ClientService" FromRole="ClientServices" ToRole="DocumentByServices" />
+    <NavigationProperty Name="ProductSales" Relationship="Self.FK_ProductSale_ClientService" FromRole="ClientServices" ToRole="ProductSales" />
+  </EntityType>
+  <EntityType Name="DocumentByServices">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientServiceID" Type="Int32" Nullable="false" />
+    <Property Name="DocumentPath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ClientServices" Relationship="Self.FK_DocumentByService_ClientService" FromRole="DocumentByServices" ToRole="ClientServices" />
+  </EntityType>
+  <EntityType Name="Genders">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="String" MaxLength="1" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Clients" Relationship="Self.FK_Client_Gender" FromRole="Genders" ToRole="Clients" />
+  </EntityType>
+  <EntityType Name="Manufacturers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Product_Manufacturer" FromRole="Manufacturers" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ProductPhotoes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="PhotoPath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_ProductPhoto_Product" FromRole="ProductPhotoes" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MainImagePath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="ManufacturerID" Type="Int32" />
+    <NavigationProperty Name="Manufacturers" Relationship="Self.FK_Product_Manufacturer" FromRole="Products" ToRole="Manufacturers" />
+    <NavigationProperty Name="ProductPhotoes" Relationship="Self.FK_ProductPhoto_Product" FromRole="Products" ToRole="ProductPhotoes" />
+    <NavigationProperty Name="ProductSales" Relationship="Self.FK_ProductSale_Product" FromRole="Products" ToRole="ProductSales" />
+    <NavigationProperty Name="Products1" Relationship="Self.AttachedProduct" FromRole="Products" ToRole="Products1" />
+    <NavigationProperty Name="Products2" Relationship="Self.AttachedProduct" FromRole="Products1" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ProductSales">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SaleDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="ClientServiceID" Type="Int32" />
+    <NavigationProperty Name="ClientServices" Relationship="Self.FK_ProductSale_ClientService" FromRole="ProductSales" ToRole="ClientServices" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_ProductSale_Product" FromRole="ProductSales" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ServicePhotoes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceID" Type="Int32" Nullable="false" />
+    <Property Name="PhotoPath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Services" Relationship="Self.FK_ServicePhoto_Service" FromRole="ServicePhotoes" ToRole="Services" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="DurationInSeconds" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Discount" Type="Double" />
+    <Property Name="MainImagePath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ClientServices" Relationship="Self.FK_ClientService_Service" FromRole="Services" ToRole="ClientServices" />
+    <NavigationProperty Name="ServicePhotoes" Relationship="Self.FK_ServicePhoto_Service" FromRole="Services" ToRole="ServicePhotoes" />
+  </EntityType>
+  <EntityType Name="Tags">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Color" Type="String" MaxLength="6" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Clients" Relationship="Self.TagOfClient" FromRole="Tags" ToRole="Clients" />
+  </EntityType>
+  <Association Name="FK_Client_Gender">
+    <End Role="Genders" Type="Self.Genders" Multiplicity="1" />
+    <End Role="Clients" Type="Self.Clients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genders">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Clients">
+        <PropertyRef Name="GenderCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClientService_Client">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="1" />
+    <End Role="ClientServices" Type="Self.ClientServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ClientServices">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClientService_Service">
+    <End Role="Services" Type="Self.Services" Multiplicity="1" />
+    <End Role="ClientServices" Type="Self.ClientServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ClientServices">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentByService_ClientService">
+    <End Role="ClientServices" Type="Self.ClientServices" Multiplicity="1" />
+    <End Role="DocumentByServices" Type="Self.DocumentByServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientServices">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DocumentByServices">
+        <PropertyRef Name="ClientServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductSale_ClientService">
+    <End Role="ClientServices" Type="Self.ClientServices" Multiplicity="0..1" />
+    <End Role="ProductSales" Type="Self.ProductSales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientServices">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProductSales">
+        <PropertyRef Name="ClientServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Manufacturer">
+    <End Role="Manufacturers" Type="Self.Manufacturers" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="ManufacturerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductPhoto_Product">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="ProductPhotoes" Type="Self.ProductPhotoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProductPhotoes">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductSale_Product">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="ProductSales" Type="Self.ProductSales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProductSales">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServicePhoto_Service">
+    <End Role="Services" Type="Self.Services" Multiplicity="1" />
+    <End Role="ServicePhotoes" Type="Self.ServicePhotoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ServicePhotoes">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AttachedProduct">
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <End Role="Products1" Type="Self.Products" Multiplicity="*" />
+  </Association>
+  <Association Name="TagOfClient">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="*" />
+    <End Role="Tags" Type="Self.Tags" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="BarhatniyeBrovkiEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clients" EntityType="Self.Clients" />
+    <EntitySet Name="ClientServices" EntityType="Self.ClientServices" />
+    <EntitySet Name="DocumentByServices" EntityType="Self.DocumentByServices" />
+    <EntitySet Name="Genders" EntityType="Self.Genders" />
+    <EntitySet Name="Manufacturers" EntityType="Self.Manufacturers" />
+    <EntitySet Name="ProductPhotoes" EntityType="Self.ProductPhotoes" />
+    <EntitySet Name="Products" EntityType="Self.Products" />
+    <EntitySet Name="ProductSales" EntityType="Self.ProductSales" />
+    <EntitySet Name="ServicePhotoes" EntityType="Self.ServicePhotoes" />
+    <EntitySet Name="Services" EntityType="Self.Services" />
+    <EntitySet Name="Tags" EntityType="Self.Tags" />
+    <AssociationSet Name="FK_Client_Gender" Association="Self.FK_Client_Gender">
+      <End Role="Genders" EntitySet="Genders" />
+      <End Role="Clients" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClientService_Client" Association="Self.FK_ClientService_Client">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="ClientServices" EntitySet="ClientServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClientService_Service" Association="Self.FK_ClientService_Service">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="ClientServices" EntitySet="ClientServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentByService_ClientService" Association="Self.FK_DocumentByService_ClientService">
+      <End Role="ClientServices" EntitySet="ClientServices" />
+      <End Role="DocumentByServices" EntitySet="DocumentByServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductSale_ClientService" Association="Self.FK_ProductSale_ClientService">
+      <End Role="ClientServices" EntitySet="ClientServices" />
+      <End Role="ProductSales" EntitySet="ProductSales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Manufacturer" Association="Self.FK_Product_Manufacturer">
+      <End Role="Manufacturers" EntitySet="Manufacturers" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductPhoto_Product" Association="Self.FK_ProductPhoto_Product">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductPhotoes" EntitySet="ProductPhotoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductSale_Product" Association="Self.FK_ProductSale_Product">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductSales" EntitySet="ProductSales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServicePhoto_Service" Association="Self.FK_ServicePhoto_Service">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="ServicePhotoes" EntitySet="ServicePhotoes" />
+    </AssociationSet>
+    <AssociationSet Name="AttachedProduct" Association="Self.AttachedProduct">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Products1" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="TagOfClient" Association="Self.TagOfClient">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Tags" EntitySet="Tags" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

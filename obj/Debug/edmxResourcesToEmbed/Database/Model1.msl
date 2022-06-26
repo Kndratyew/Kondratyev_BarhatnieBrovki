@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище BarhatniyeBrovkiModelContainer" CdmEntityContainer="BarhatniyeBrovkiEntities">
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.Clients">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="GenderCode" ColumnName="GenderCode" />
+          <ScalarProperty Name="PhotoPath" ColumnName="PhotoPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientServices">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.ClientServices">
+        <MappingFragment StoreEntitySet="ClientServices">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DocumentByServices">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.DocumentByServices">
+        <MappingFragment StoreEntitySet="DocumentByServices">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClientServiceID" ColumnName="ClientServiceID" />
+          <ScalarProperty Name="DocumentPath" ColumnName="DocumentPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genders">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.Genders">
+        <MappingFragment StoreEntitySet="Genders">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Manufacturers">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.Manufacturers">
+        <MappingFragment StoreEntitySet="Manufacturers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductPhotoes">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.ProductPhotoes">
+        <MappingFragment StoreEntitySet="ProductPhotoes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="PhotoPath" ColumnName="PhotoPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.Products">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MainImagePath" ColumnName="MainImagePath" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ManufacturerID" ColumnName="ManufacturerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductSales">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.ProductSales">
+        <MappingFragment StoreEntitySet="ProductSales">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SaleDate" ColumnName="SaleDate" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ClientServiceID" ColumnName="ClientServiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServicePhotoes">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.ServicePhotoes">
+        <MappingFragment StoreEntitySet="ServicePhotoes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="PhotoPath" ColumnName="PhotoPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.Services">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="DurationInSeconds" ColumnName="DurationInSeconds" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="MainImagePath" ColumnName="MainImagePath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags">
+      <EntityTypeMapping TypeName="BarhatniyeBrovkiModel.Tags">
+        <MappingFragment StoreEntitySet="Tags">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AttachedProduct" TypeName="BarhatniyeBrovkiModel.AttachedProduct" StoreEntitySet="AttachedProduct">
+      <EndProperty Name="Products">
+        <ScalarProperty Name="ID" ColumnName="Products_ID" />
+      </EndProperty>
+      <EndProperty Name="Products1">
+        <ScalarProperty Name="ID" ColumnName="Product1_ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TagOfClient" TypeName="BarhatniyeBrovkiModel.TagOfClient" StoreEntitySet="TagOfClient">
+      <EndProperty Name="Clients">
+        <ScalarProperty Name="ID" ColumnName="Clients_ID" />
+      </EndProperty>
+      <EndProperty Name="Tags">
+        <ScalarProperty Name="ID" ColumnName="Tags_ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,98 @@
+﻿<Window x:Class="BarhatnieBrovki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarhatnieBrovki" 
+        mc:Ignorable="d"
+        Title="Главная" Height="800" Width="1000">
+
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="*"/>
+            <!--заглушка-->
+        </Grid.RowDefinitions>
+
+
+
+        <!--ЛЕВАЯ ПАНЕЛЬ-->
+        <StackPanel
+            Grid.Row="0" 
+            Grid.Column="0"
+            Background="#e1e4ff"
+            >
+            <Image
+                Source="Resources/beauty_logo.png"
+                Height="60"
+                Margin="0 5 0 0"  
+            />
+        </StackPanel>
+
+        <Button Content="Услуги"          
+                Grid.Column="1"
+                Background="#ff4a6d"
+                FontFamily="Tahoma"
+                FontSize="18"
+                FontWeight="Bold"
+                x:Name="StepToServices"
+                Click="StepToServicesButton"
+                />
+
+        <Button Content="Добавить услугу" 
+                Grid.Column="2"
+                Background="Transparent" 
+                FontFamily="Tahoma"
+                FontSize="18" 
+                FontWeight="Bold"
+                x:Name="StepToAddServices"
+                Click="StepToAddServicesButton"
+                />
+
+
+        <Button Content="Ближайшие записи"
+                Grid.Column="3"
+                Background="Transparent" 
+                FontFamily="Tahoma"
+                FontSize="18"
+                FontWeight="Bold"
+                x:Name="StepToUpcomingEntries"
+                Click="StepToUpcomingEntriesButton"
+                />
+
+        <!--ГЛАВНАЯ ПАНЕЛЬ ПОСЕРЕДИНЕ-->
+        <Frame x:Name="MainFrame" 
+               Grid.Row="1"
+               Grid.ColumnSpan="6"
+               NavigationUIVisibility="Hidden"
+               />
+
+
+
+
+
+
+        <!--отделяющие линии-->
+
+
+        <Line Grid.Column="0"
+              Grid.Row="1"
+              Grid.ColumnSpan="6" 
+              Stroke="#ff4a6d" 
+              StrokeThickness="7"
+              X1="-200" X2="1000"
+              Margin="1,0,0,0"
+              />
+    </Grid>
+</Window>
+

@@ -1,0 +1,212 @@
+﻿<Window x:Class="BarhatnieBrovki.Windows.AddKlient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarhatnieBrovki.Windows"
+        mc:Ignorable="d"
+        Title="Запись клиента" Height="881" Width="800"
+        ResizeMode="NoResize">
+
+
+    <StackPanel Margin="0,0,0,-287">
+        <Label Content="Запись клиента" 
+               HorizontalAlignment="Center"
+               FontWeight="Bold"
+               FontSize="30"
+               FontFamily="Tahoma"
+               />
+
+        <Label x:Name="Tname"
+               HorizontalAlignment="Center"
+               FontFamily="Tahoma"
+               FontSize="24"
+               Foreground="#ff4a6d"
+               FontWeight="DemiBold"
+               Margin="10,0,10,10"
+               />
+
+
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Продолжительность в минутах:" 
+               HorizontalAlignment="Center"
+               FontFamily="Tahoma" 
+               Margin="280,0,0,0"
+               />
+
+            <Label x:Name="Tduration"
+                HorizontalAlignment="Center"
+               FontFamily="Tahoma"
+               Margin="0,0,10,0"
+               />
+        </StackPanel>
+
+        <Label Content="Выберите клиента"
+               FontFamily="Tahoma"
+               Margin="10,0,10,0"
+               HorizontalAlignment="Center"
+               />
+        <ComboBox Height="50" 
+                  Width="250"
+                  HorizontalAlignment="Center"
+                  SelectionChanged="SelectedKlientCombobox" 
+                  x:Name="KlientCombobox"
+                  Margin="0,0,0,20"
+                  FontFamily="Tahoma"
+                  ItemsSource="{Binding }"
+                  />
+
+
+
+        <Label Content="Дата записи"
+               FontFamily="Tahoma"
+               Margin="10,0,10,0"
+               HorizontalAlignment="Center"
+               />
+        <Calendar 
+                  HorizontalAlignment="Center"
+                  x:Name="Data"
+                  FontFamily="Tahoma"
+                  SelectedDatesChanged="SelectedDate"
+                  Margin="10,0,10,20"      
+                  />
+
+
+        <Label Content="Время записи"
+               FontFamily="Tahoma"
+               Margin="10,0,10,0"
+               HorizontalAlignment="Center"
+               />
+
+
+
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Часы" FontFamily="Tahoma" Margin="305,0,0,0"/>
+            <Label Content="Минуты" FontFamily="Tahoma" Margin="25,0,0,0"/>
+            <Label Content="Секунды" FontFamily="Tahoma" Margin="15,0,0,0"/>
+        </StackPanel>
+
+
+
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <TextBox
+            FontFamily="Tahoma"
+            Margin="10,0,10,20"
+            Width="30"
+            Height="20"
+            HorizontalAlignment="Center"
+            PreviewTextInput="ValidationTimeH"
+            x:Name="timeH"
+            />
+            <Label Content=":"
+                   FontFamily="Tahoma"
+                   FontSize="24"
+                   Margin="0,-11,0,0"
+                   />
+
+            <TextBox
+            FontFamily="Tahoma"
+            Margin="10,0,10,20"
+            Width="30"
+            Height="20"
+            HorizontalAlignment="Center"
+            PreviewTextInput="ValidationTimeM"
+            x:Name="timeM"
+            />
+
+            <Label Content=":"
+                   FontFamily="Tahoma"
+                   FontSize="24"
+                   Margin="0,-11,0,0"
+                   />
+
+            <TextBox
+            FontFamily="Tahoma"
+            Margin="10,0,10,20"
+            Width="30"
+            Height="20"
+            HorizontalAlignment="Center"
+            PreviewTextInput="ValidationTimeS"
+            x:Name="timeS"
+            />
+          
+        </StackPanel>
+
+
+        <Label Content="Время окончания"
+               FontFamily="Tahoma"
+               Margin="10,0,10,0"
+               HorizontalAlignment="Center"
+               />
+        <Button Content="Подсчитать время окончания"
+                    FontFamily="Tahoma"
+                    Height="20"
+                    Background="#e1e4ff"
+                    Padding="10,0,10,0"
+                    Margin="300 0 300 20"
+                Click="CalculatePMS"
+                    />
+        <Label 
+               x:Name="TimeEnd"           
+               FontFamily="Tahoma"
+               Margin="10,0,10,0"
+               HorizontalAlignment="Center"
+               />
+
+        <Label Content="*Комментарий"
+               FontFamily="Tahoma"
+               Margin="10,0,10,0"
+               HorizontalAlignment="Center"              
+               />
+        <TextBox Width="200"
+                 Height="100"
+                 Background="#ff4a6d"
+                 x:Name="commentarii"
+                 FontFamily="Tahoma">
+            <TextBox.Style>
+                <Style TargetType="{x:Type TextBox}">
+                    <Style.Triggers>
+                        <Trigger Property="IsFocused" Value="false">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type TextBox}">
+                                        <TextBlock IsHyphenationEnabled="True" 
+                                                   TextWrapping="Wrap"
+                                                   Width="200" 
+                                                   Height="100"
+                                                   Background="#e1e4ff"
+                                                   Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type TextBox}},
+                                            Path=Text}"/>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Сохранить"
+                     HorizontalAlignment="Center"
+                    Margin="300,20,10,10"
+                    Background="#e1e4ff"
+                    Foreground="Black"
+                    FontFamily="Tahoma"
+                    Padding="10,10,10,10"
+                    Click="Save"
+                    />
+            <Button Content="Выйти"
+                     HorizontalAlignment="Center"
+                    Margin="10,20,10,10"
+                    Background="#e1e4ff"
+                    Foreground="Black"
+                    FontFamily="Tahoma"
+                    Padding="10,10,10,10"
+                    Click="Exit"
+                    />
+        </StackPanel>
+
+    </StackPanel>
+</Window>
